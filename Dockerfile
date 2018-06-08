@@ -55,7 +55,7 @@ RUN grunt minify
 
 RUN /bin/bash scripts/install_narrative_docker.sh
 
-RUN ./fixupURL.sh && chmod 666 /kb/dev_container/narrative/src/config.json
+RUN ./scripts/fixupURL.sh && chmod 666 /kb/dev_container/narrative/src/config.json
 RUN pip install jupyter-console
 
 WORKDIR /tmp
@@ -72,5 +72,5 @@ ENTRYPOINT ["kbase-narrative"]
 
 ONBUILD USER root
 ONBUILD ADD url.cfg /kb/dev_container/narrative/url.cfg
-ONBUILD RUN cd /kb/dev_container/narrative && ./fixupURL.sh
+ONBUILD RUN cd /kb/dev_container/narrative && ./scripts/fixupURL.sh
 ONBUILD USER nobody
