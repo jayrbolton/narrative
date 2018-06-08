@@ -11,6 +11,7 @@ kbase-extension/kbase_templates/old/
 kbase-extension/static/components/
 kbase-extension/static/ext_components/
 node_modules/
+package-lock.json
 install.log
 /src/build/
 /venvs/
@@ -46,6 +47,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+.mypy_cache
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -58,6 +60,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+/cover
 /coverage/
 htmlcov/
 .tox/
@@ -68,6 +71,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+/test/*.tok
 
 # Translations
 *.mo
