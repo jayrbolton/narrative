@@ -30,3 +30,4 @@ markupsafe
 plotly
 mock
 coverage
+ipython[all]
