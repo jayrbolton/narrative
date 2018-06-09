@@ -1,3 +1,5 @@
+# This is a Conda environment configuration
+# Load it with `conda create env -f environment.yaml`
 name: kbase-narrative
 channels:
   - conda-forge
