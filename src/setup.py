@@ -39,6 +39,11 @@ setup(
         "Topic :: Scientific/Engineering :: Chemistry",
         "Topic :: Software Development :: Libraries :: Python Modules"
     ],
+    entry_points={
+        'console_scripts': [
+            'kbase-narrative = cli:main'
+        ]
+    },
     ext_modules=[],
     cmdclass={
         "doc": BuildDocumentation,
