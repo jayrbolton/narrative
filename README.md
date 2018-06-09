@@ -78,7 +78,7 @@ When deployed in production, the Narrative Interface is compiled into a [Docker]
 Testing is composed of three components:
 
 - a `make test` directive that runs through a batch of unit-testing of the Narrative, both the front-end Javascript-based components, and the back-end IPython modifications
-- a `travis.yml` file for Travis-CI testing
+- a `.travis.yml` file for Travis-CI testing
 - a set of Selenium-based end-to-end tests that simulate browser interactions
 
 Testing locally (i.e. not through Travis-CI) requires a local Narrative installation, with active virtualenv (if installed that way). Then just run `make test` or `make test-frontend-unit` or `make test-backend`. If you haven't changed any configuration, this will run unauthenticated tests and skip any tests that require authentication.
