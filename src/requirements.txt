@@ -31,3 +31,4 @@ plotly
 mock
 coverage
 jupyter==1.0.0
+docopt>=0.6.2
