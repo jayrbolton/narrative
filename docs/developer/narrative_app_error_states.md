@@ -1,6 +1,8 @@
-#Narrative app error conditions
-###Bill Riehl <wjriehl@lbl.gov>
-###Last update - January 9, 2015
+# Narrative app error conditions
+
+### Bill Riehl <wjriehl@lbl.gov>
+
+### Last update - January 9, 2015
 
 There have been some issues with development and debugging apps and methods in the Narrative. Here, I put together a few tips on where the possible points of failure are and how to try to debug each one. I'm attaching an image that details all the moving parts where errors could occur, and what kind of behavior those errors should cause. If any conditions arise that aren't covered here, then that could be a bug that needs to be dealt with. Please submit a JIRA ticket!
 
