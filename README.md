@@ -31,6 +31,10 @@ $ source activate kbase-narrative
 # Verify that things work by running tests
 (kbase-narrative) $ make test
 
+# Install the javascript requirements
+(kbase-narrative) $ npm install
+(kbase-narrative) $ npm run bower
+
 # Install and run the server
 (kbase-narrative) $ scripts/install_narrative.sh
 (kbase-narrative) $ kbase-narrative
